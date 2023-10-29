@@ -1,6 +1,6 @@
 # Create and Mint Token
 
-his Solidity smart contract deploys a simple ERC-20 token named "SimpleToken" with the symbol "SIM," allowing the contract owner to mint new tokens, any address to burn their own tokens, and facilitating the transfer of tokens between addresses.
+This Solidity smart contract deploys a simple ERC-20 token named "SimpleToken" with the symbol "SIM," allowing the contract owner to mint new tokens, any address to burn their own tokens, and facilitating the transfer of tokens between addresses.
 
 ## Description
 
