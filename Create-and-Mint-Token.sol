@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract CreateToken is ERC20, Ownable {
 
-constructor() ERC20("SimpleToken", "SIM") Ownable(msg.sender) {
+constructor() ERC20("CreateToken", "LIT") Ownable(msg.sender) {
     // Mint initial tokens to the contract owner
     _mint(msg.sender, 1000000 * (10**uint256(decimals())));
 }
